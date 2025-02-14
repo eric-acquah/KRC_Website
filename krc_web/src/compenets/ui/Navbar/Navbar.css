@@ -1,0 +1,16 @@
+/* === Navbar Styles === */
+
+
+/* === Img === */
+
+.logo {
+  width: 6rem;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 4.5rem;
+  }
+    
+}

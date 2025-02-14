@@ -1,0 +1,25 @@
+/* === Footer Styles === */
+
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footer-list li {
+    padding-top: 1rem;
+}
+
+
+.footer-list li a{
+    text-decoration: none;
+    color: black;
+    padding-top: 5rem;
+}
+
+.social-icon {
+    width: 1.09rem;
+    margin-right: 2rem;
+}
