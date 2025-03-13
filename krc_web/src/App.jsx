@@ -1,5 +1,4 @@
-import Header from './compenets/ui/Header/Header';
-import Footer from './compenets/ui/Footer/Footer';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Homepage from './pages/Homepage/Homepage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,14 +7,25 @@ import 'normalize.css';
 import './App.css'
 import './index.css';
 
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Homepage />,
+  },
+  {
+    path: 'about-us',
+    element: <Homepage />,
+  }
+]);
+
+
 function App() {
 
   return (
     <>
       <div className="App">
-        <Header />
-        <Homepage />
-        <Footer />
+        <RouterProvider router={router} />
       </div>
     </>
   )

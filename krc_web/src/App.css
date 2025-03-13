@@ -1,10 +1,10 @@
 :root {
     --color-prime: #FFFFFF;
-    --color-prime-2: #EEEEEE;
-    --color-secon: #F5DEB3;
-    --color-secon-2: #008080;
-    --color-accent-1: #DD761C;
-    --color-accent-2: #0B5ED7;
+    /* --color-prime-2: #C4C4C4; */
+    --color-secon: rgb(248, 249, 250);
+    --color-secon-2: #C4C4C4;
+    --color-accent-1: #69D0D3;
+    --color-accent-2: #283F6A;
     --color-accent-3: #0C0C0C; 
 }
 
@@ -23,3 +23,14 @@
 body {
     padding-top: 7.829rem;
 }
+
+html {
+    /* Fluid typography: font size scales based on viewport width */
+    font-size: clamp(0.875rem, 1vw + 0.5rem, 1rem) !important;
+}
+
+
+/* Optional: Improve readability with adjusted line heights */
+/* body {
+    line-height: 1.6;
+} */
