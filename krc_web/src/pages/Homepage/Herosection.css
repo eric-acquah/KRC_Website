@@ -20,6 +20,10 @@
     /* padding: 4rem; */
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
+    background-image: url("./images/Hero_img.jpg");
+    background-size: cover;
+    background-color: var(--color-secon-2);
+    color: var(--color-accent-3);
 }
 
 .hero-container .row {
@@ -56,5 +60,15 @@
     padding: 0.9rem 1.5rem;
     font-weight: 600;
     border-radius: 11px;
+    border-color: var(--color-accent-1);
     transition: all 0.3s ease;
+    background-color: var(--color-accent-1);
+    color: var(--color-prime);
+}
+
+.herosec .hero-btn:hover {
+    filter: brightness(95%);
+    background-color: var(--color-accent-1);
+    color: var(--color-prime);
+    border-color: var(--color-accent-1);
 }

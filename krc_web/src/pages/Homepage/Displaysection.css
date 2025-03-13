@@ -1,0 +1,258 @@
+/* === Display Area Styles === */
+
+
+.display-area {
+    padding-top: 2rem;
+}
+
+.display-area h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.display-area p {
+  font-size: 1rem;
+  padding: 0 2rem;
+  /* margin-bottom: 1rem; */
+}
+
+.display-area a {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.display-area a span {
+    margin-left: 0.5rem;
+}
+
+
+/* === Display Cards === */
+
+.display-card .card-img  {
+  background-color: gray;
+  height: 27rem;
+  width: 22rem;
+  border-top-right-radius: 13rem;
+  overflow: visible;
+}
+
+.display-card .card-img.shadow_offset {
+  box-shadow: -18px 17px 0px var(--color-accent-2);
+}
+
+.display-card .card-img img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 13rem;
+  object-fit: fill;
+}
+
+.display-card .card-details h3, .display-card .card-details p {
+  margin: 0;
+  padding: 0;
+}
+
+.display-card .card-details {
+  margin-top: 0.5rem;
+  width: 22rem;
+}
+
+.display-card .card-details p {
+  font-size: 0.9rem;
+}
+
+.display-card .card-details button {
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-accent-2);
+  color: white;
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  left: 15.5rem;
+  top: -0.5rem;
+  z-index: 1;
+}
+
+@media (max-width: 786px) {
+
+  .custom-vr {
+    min-width: 8rem !important;
+    max-height: 1px;
+  }
+}
+
+/* Adjust button to fit extra small viewport */
+@media (min-width: 320px) and (max-width: 320px) {
+  .display-card .card-details button {
+    left: 9rem;
+  }
+}
+
+
+/* Adjust button to fit small viewport */
+@media (min-width: 375px) and (max-width: 567px) {
+  .display-card .card-details button {
+    left: 13.2rem;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .display-card .card-img {
+    height: 20rem;
+    width: 18rem;
+  }
+
+  .display-card .card-details button {
+    left: 10rem;
+  }
+
+  .card-details-container {
+    position: relative;
+    /* left: 5.4rem; */
+    z-index: 1;
+    left: 1.5rem;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .display-card .card-img {
+    height: 20rem;
+    width: 18rem;
+  }
+
+  .display-card .card-details button {
+    left: 9.7rem;
+  }
+
+  .card-details-container {
+    position: relative;
+    /* left: 5.4rem; */
+    z-index: 1;
+    left: 1rem;
+  }
+
+  .custom-vr {
+    /* display: none !important; */
+    min-width: 1px !important;
+    max-height: 7rem;
+    margin-left: 0.7rem;
+  }
+
+  .project-count h3 {
+    font-size: 1rem;
+  }
+}
+
+/* === Project Count === */
+
+.project-count h3{
+  font-size: 5rem;
+  font-weight: 600;
+  color: var(--color-accent-2);
+  margin-bottom: 1rem;
+}
+
+.project-count .col-sm-2 + .col-sm-2 {
+  border-left: 1px solid black;
+}
+
+.custom-vr {
+  display: inline-block;
+    align-self: center;
+    width: 1px !important;
+    height: 8rem;
+    background-color: var(--color-accent-2);
+    opacity: 1;
+    padding: 0 !important;
+}
+
+/* === Project Count === */
+
+.project-count p {
+  padding: 0;
+}
+
+
+/* === Review Section === */
+
+.review-section {
+  padding-top: 12rem;
+}
+
+.review-card-container {
+  background-color: var(--color-secon-2);
+  padding: 4rem 1rem;
+  border-radius: 3rem;
+}
+
+.review-card-container h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-prime);
+}
+
+/* === Review Card === */
+
+.review-card {
+  width: 18rem;
+  height: 18rem;
+  padding: 1.5rem;
+  /* margin: 1rem; */
+  background-color: var(--color-prime);
+  border-radius: 1.5rem;
+}
+
+.reviewer-pic {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: blue;
+  margin-right: 1rem;
+}
+
+.reviewer-pic img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info h4{
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.reviewer-info p {
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+.review-card-head {
+  display: flex;
+  align-items: start;
+  /* height: 4rem; */
+  flex-grow: 0 !important;
+}
+
+.review-card .review-card-body {
+  padding-top: 1rem;
+}
+
+.review-card .review-card-body p{
+  padding: 0;
+}
+
+/* === Swiper Container === */
+
+/* .swiper-container {
+  display: flex;
+  flex-direction: row;
+} */

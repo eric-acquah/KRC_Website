@@ -5,7 +5,7 @@ import './Herosection.css';
 export default function Herosection() {
     return (
         <div className="herosec">
-            <div className="container bg-body-secondary hero-container">
+            <div className="container hero-container">
                <div className="row">
                     <div className="col-md d-flex flex-column justfy-content-start">
                         <div className="row">
