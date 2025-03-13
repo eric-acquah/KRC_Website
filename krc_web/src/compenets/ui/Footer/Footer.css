@@ -1,5 +1,10 @@
 /* === Footer Styles === */
 
+.footer-body {
+    background-color: var(--color-prime);
+    color: var(--color-accent-3);
+}
+
 
 .footer-list{
     display: flex;

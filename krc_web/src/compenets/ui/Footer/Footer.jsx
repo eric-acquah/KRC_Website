@@ -9,11 +9,11 @@ import instagram from "/src/assets/icons/icons8-instagram.svg";
 export default function Footer() {
     return (
         <footer className="footer position-relative bottom-0 mt-5">
-        <div className="container-fluid pt-4  bg-body-tertiary fs-6">
+        <div className="footer-body container-fluid pt-4 fs-6">
            <div className='container mt-4'>
                 <div className='row text-center'>
                     <div className='col-sm text-start mb-5'>
-                        <img src="/src/assets/krc-logo.png" alt="logo" width="150" className='logo d-block' />
+                        <img src="/src/assets/krc-logo-1.png" alt="logo" width="150" className='logo d-block' />
                         <div className='mt-2'>
                         <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget lacus augue.</small>
                         </div>
