@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Homepage from './pages/Homepage/Homepage';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'normalize.css';
 import './App.css'
 import './index.css';
+import AboutUspage from './pages/AboutUspage/AboutUspage';
+import Homepage from './pages/Homepage/Homepage';
 
 
 const router = createBrowserRouter([
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   },
   {
     path: 'about-us',
-    element: <Homepage />,
+    element: <AboutUspage />,
   }
 ]);
 

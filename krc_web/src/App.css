@@ -24,9 +24,24 @@ body {
     padding-top: 7.829rem;
 }
 
+@media (max-width: 768px) {
+    body {
+        padding-top: 5.829rem;
+    }
+}
+
 html {
     /* Fluid typography: font size scales based on viewport width */
     font-size: clamp(0.875rem, 1vw + 0.5rem, 1rem) !important;
+}
+
+/* === Global Button hover effect === */
+
+.global-btn:hover {
+    filter: brightness(95%);
+    background-color: var(--color-accent-1);
+    color: var(--color-prime);
+    border-color: var(--color-accent-1);
 }
 
 

@@ -38,7 +38,7 @@
 }
 
 .display-card .card-img.shadow_offset {
-  box-shadow: -18px 17px 0px var(--color-accent-2);
+  box-shadow: -18px 17px 0px var(--color-accent-1);
 }
 
 .display-card .card-img img {
