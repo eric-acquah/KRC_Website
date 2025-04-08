@@ -1,0 +1,18 @@
+/* === Page Title === */
+
+.page-title {
+  margin-bottom: 2.5rem;
+  padding: 4rem 5rem;
+  background-color: var(--color-secon-2);
+  background-size: cover;
+}
+
+
+.page-title h1 {
+    position: relative;
+    top: 2rem;
+    font-size: 3rem;
+    color: var(--color-prime);
+    text-transform: capitalize;
+    text-shadow: 8px 5px 5px rgba(0, 0, 0, 0.5);
+}
