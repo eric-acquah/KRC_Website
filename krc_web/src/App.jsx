@@ -6,6 +6,8 @@ import './App.css'
 import './index.css';
 import AboutUspage from './pages/AboutUspage/AboutUspage';
 import Homepage from './pages/Homepage/Homepage';
+import Portfoliopage from './pages/Portfoliopage/Portfoliopage';
+import ContactUspage from './pages/ContactUspage/ContactUspage';
 
 
 const router = createBrowserRouter([
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
   {
     path: 'about-us',
     element: <AboutUspage />,
+  },
+  {
+    path: 'portfolio',
+    element: <Portfoliopage />,
+  },
+  {
+    path: 'contact-us',
+    element: <ContactUspage />,
   }
 ]);
 
