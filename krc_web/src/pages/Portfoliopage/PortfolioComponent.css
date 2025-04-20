@@ -1,0 +1,93 @@
+/* === Portfolio Component Styles === */
+
+.portfolio-tabs-nav.nav {
+    border: 1px solid var(--color-accent-2);
+    padding: 1rem;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.portfolio-tabs-nav.nav .nav-link {
+    color: var(--color-accent-2);
+}
+
+.portfolio-tabs-nav.nav .nav-link.active {
+    background-color: var(--color-accent-2);
+    color: var(--color-prime);
+}
+
+/* === Portfolio Cards === */
+
+.portfolio-card:hover .portfolio-slider {
+    box-shadow: -10px 10px 0px var(--color-accent-1);
+}
+
+.portfolio-slider {
+    height: 27rem;
+    width: 26rem;
+    background-color: var(--color-secon-2);
+    transition: 0.4s ease-in-out;
+}
+
+.portfolio-img{
+    width: 26rem;
+    height: 27rem;
+    object-fit: cover;
+    background-color: var(--color-secon-2);
+}
+
+.card-body {
+    margin-top: 1rem;
+    /* width: 26rem; */
+}
+
+.card-body > div {
+    width: 26rem;
+}
+
+.card-btns {
+    align-self: center;
+}
+
+.card-btns button{
+    padding: 1rem;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--color-secon-2);
+    border: none;
+    color: var(--color-accent-2);
+}
+
+.card-btns button:last-child {
+    margin-left: 0.5rem;
+}
+
+.card-description {
+    align-self: center;
+}
+
+/* === Responsive styles === */
+
+@media (min-width: 768px) and (max-width: 969px) {
+
+    .cards-container.col-md-6 {
+        width: 100%;
+    }
+
+    .portfolio-slider {
+        min-width: 100%;
+        height: 30rem;
+    }
+    .portfolio-img{
+        width: 100%;
+        height: 30rem;
+    }
+    .card-body > div {
+        width: 100%;
+    }
+
+    .pagination-wrapper.col-md-4 {
+        width: 100%;
+    }
+}
